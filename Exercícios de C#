@@ -1,0 +1,13 @@
+  int a = 10, b = 0, c = 0, i = 1;
+            Console.WriteLine("Hello World!");
+            Console.Write("digite um valor para definir a quantidade de termos: ");
+            b = int.Parse(Console.ReadLine());
+            Console.Write("digite um valor para definir a razão dos termos: ");
+            c = int.Parse(Console.ReadLine());
+            while (i <= b)
+            {
+                Console.Write($"{a} ");
+                a = a + c;
+                i++;
+            }
+            Console.ReadLine();
